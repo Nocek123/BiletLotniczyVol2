@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="teststyle.css">
+</head>
+<body>
+    <div id="container" >
+        <div id="topZone"> <!-- GORNY SZARY PASEK STRONY Z LOGIEM I HASLEM -->
+            <div id="topSubContainer">
+                <img src="planeLogo3.png" id="logo">
+                <h1 id="slogan">U Nas kupisz swój bilet do raju!</h1>
+                <input id="btnZaloguj" class="btnOne" type="button" value="Zaloguj" >
+            </div>
+        </div>
+        <div id="middleZone" >
+            <div id="middleSubContainer">
+                <form class=""> <!--  FORMULARZ Z DANYMI DO LOTU  -->
+                    <p class="">Wybierz miasto odlotu:</p>
+                        <select id="startCity" class="inputInForm" required>
+                            <option disabled selected value>Wybierz miasto z listy</option>
+                            <option value="Łódź">Łódź</option>
+                            <option value="Warszawa">Warszawa</option>
+                            <option value="Gdańsk">Gdańsk</option>
+                            <option value="Kraków">Kraków</option>
+                        </select>
+                        <br><br>
+                     <p class="">Wybierz cel podróży:</p>
+                        <select id="destinationCity" class="inputInForm" required>
+                            <option disabled selected value>Wybierz miasto z listy</option>
+                            <option value="Nowy Jork">Nowy Jork</option>
+                            <option value="Waszyngton">Waszyngton</option>
+                            <option value="Londyn">Londyn</option>
+                            <option value="Paryż">Paryż</option>
+                            <option value="Sydney">Sydney</option>
+                            <option value="Kair">Kair</option>
+                            <option value="Wrocław">Wrocław</option>
+                            <option value="Katowice">Katowice</option>
+                        </select>
+                        <br><br>
+                    <p class="">Wybierz datę odlotu:</p>
+                            <input id="startDate" class="inputInForm" type="date" required>
+                            <br><br>
+                    <p class="">Podaj liczbę Pasażerów</p>
+                            <input id="passengersNumber" class="inputInForm" type="number" required>
+                    <br><br>
+                            <input id="btnWyszukaj" class="btnOne" type="submit" value="Wyszukaj loty">
+                </form>
+                <div class="bordersOne"> <!-- TUTAJ JEST WIDGET POGODOWY  -->
+                    <div id="inpl-weather-main" class="inpl-weather-main" data-langId="1" data-unitId="E" data-icT="1" data-cId="36917" data-clBg="5ce1e6" data-clTxt="ffffff" data-clLink="313131" data-txtDesc="1" data-fTemp="1" data-crPs="1" data-crWind="1" data-fr="2" data-wdh="300" data-hIf="400" data-d="//widgets.interia.pl" style="position:relative; width: 300px; color: #313131; background-color:#5ce1e6"><div id="inpl-weather-links" style="background-color:#5ce1e6;display:flex;flex-flow:row wrap;justify-content:space-around;padding:0 8px 8px;text-align:center"><a id="wlHbh" style="background-color:#5ce1e6;color:inherit;font-size:13px;text-decoration:none;margin:4px;" href="https://pogoda.interia.pl/prognoza-szczegolowa-the-city-name,cId,36917">Godzina po godzinie</a><a id="wlfr" style="background-color:#5ce1e6;color:inherit;font-size:13px;text-decoration:none;margin:4px;" href="https://pogoda.interia.pl/prognoza-dlugoterminowa-the-city-name,cId,36917">Na 45 dni</a></div></div><script>!(function(t,n,e){var r,o;t.getElementById(e)||(r=t.getElementsByTagName(n)[0],(o=t.createElement(n)).id=e,o.src="//w.iplsc.com/widget/weather-2.0.2.jssc",r.parentNode.appendChild(o))})(document,"script","widget-js")</script>
+                </div>
+            </div>
+        </div>
+        <div id="bottomZone"> <!--  DOLNY SZARY PASEK-->
+            <div id="bottomSubContainer">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
