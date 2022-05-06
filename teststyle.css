@@ -1,0 +1,131 @@
+*{
+    margin:0px;
+    font-family: Calibri;
+}
+
+/* kolor: #5CE1E6 jest do zmiany na jaśniejszy */
+
+form {
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.bordersOne {
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    background-color: #5ce1e6;
+}
+
+.inputInForm {
+    width: 200px;
+    border: solid 2px black;
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px;
+    background-color: #FFFFFF;
+}
+
+#topZone {
+    height: 200px;
+    background-color: #545454;
+}
+
+#middleZone {
+    height: 700px;
+    background-color: #99fcff;
+}
+
+#bottomZone {
+    height: 125px;
+    background-color: #545454;
+}
+
+#topSubContainer {
+    margin: auto;
+    width: 1200px;
+    height: 200px;
+}
+
+#logo{
+    height: 160px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+#slogan{
+    float: left;
+    color: white;
+    margin-top: 140px;
+    margin-left: 100px;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+
+#btnZaloguj{
+    margin-top: 30px;
+    margin-right: 50px;
+    height: 30px;
+    width: 120px;
+    float: right;
+}
+
+#middleSubContainer {
+    margin: auto;
+    height: 700px;
+    width: 1200px;
+    background-color: #99fcff;
+    display: flex;
+    justify-content: center;
+}
+
+#bottomSubContainer {
+    margin: auto;
+    height: 125px;
+    width: 1200px;
+}
+
+/* BUTTONS */
+.btnOne {
+    background: #3684AB;
+    border: 2px solid white;
+    border-radius: 6px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;  TAKI BOX SHADOW BYŁ ORYGINALNIE, NA RAZIE PODMIENIAM NA TEN NIZEJ*/
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle; 
+    width: 206px;
+  }
+  
+  .btnOne:hover,
+  .btnOne:active {
+    background-color: white;
+    background-position: 0 0;
+    border: 2px solid #3684AB;
+    color: #3684AB;
+  }
+  
+  .btnOne:active {
+    opacity: .5;
+  }
+  /* END BUTTONS */
