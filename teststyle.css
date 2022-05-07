@@ -6,28 +6,39 @@
 /* kolor: #5CE1E6 jest do zmiany na jaśniejszy */
 
 form {
-    border: solid 2px black;
-    border-radius: 20px;
     padding: 20px;
-    margin: 50px;
+    margin: 10px;
     box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    font-size: 26px;
+    width: 600px;
+    /* margin: 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.bigLetters {
+    font-size: 26px;
 }
 
 .bordersOne {
-    border: solid 2px black;
-    border-radius: 20px;
+    border: solid 1px rgb(94, 94, 94);
+    border-radius: 10px;
     padding: 20px;
-    margin: 50px;
-    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    margin: 50px 20px 50px 20px;
+    box-shadow: 8px 8px 12px 0px rgba(66, 68, 90, 1);
     background-color: #5ce1e6;
 }
 
 .inputInForm {
     width: 200px;
-    border: solid 2px black;
+    border: solid 1px black;
     border-radius: 7px;
     padding: 5px 10px 5px 10px;
     background-color: #FFFFFF;
+    margin-top: 10px;
 }
 
 #topZone {
@@ -95,7 +106,7 @@ form {
     border: 2px solid white;
     border-radius: 6px;
     /* box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;  TAKI BOX SHADOW BYŁ ORYGINALNIE, NA RAZIE PODMIENIAM NA TEN NIZEJ*/
-    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    /* box-shadow: 8px 8px 12px 0px rgba(66, 68, 90, 1); */
     box-sizing: border-box;
     color: #FFFFFF;
     cursor: pointer;
@@ -129,3 +140,26 @@ form {
     opacity: .5;
   }
   /* END BUTTONS */
+
+  /* Przesuwacz zdjęć TUUUTAJ */
+
+  #cityPhoto {
+      width: 300px;
+      height: auto;
+  }
+
+  #aroundPhoto {
+      background-color: white;
+      border: solid 1px rgb(179, 179, 179);
+      width: 330px;
+      height: 330px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      padding-bottom: 50px;
+  }
+
+  #photoContainer {
+      text-align: center;
+  }
